@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Liens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="text-center mb-0">Gestionnaire de Liens</h1>
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#userGuideModal">
+                Guide Utilisateur
+            </button>
+        </div>
+        
+        <!-- Conteneur pour les alertes -->
+        <div id="alertContainer" class="position-fixed top-0 end-0 p-3" style="z-index: 11;"></div>
+
+        <!-- Formulaire pour ajouter/modifier un lien -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Ajouter un lien</h5>
+                <div>
+                    <div class="mb-3">
+                        <label for="linkUrl" class="form-label">URL</label>
+                        <input type="url" class="form-control" id="linkUrl" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="linkTitle" class="form-label">Titre</label>
+                        <input type="text" class="form-control" id="linkTitle" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="linkCategory" class="form-label">Catégorie</label>
+                        <input type="text" class="form-control" id="linkCategory" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="linkTags" class="form-label">Tags (séparés par des virgules)</label>
+                        <input type="text" class="form-control" id="linkTags">
+                    </div>
+                    <input type="hidden" id="linkId">
+                    <button type="button" class="btn btn-primary" id="addLinkBtn">Ajouter</button>
+                    <button type="button" class="btn btn-secondary" id="resetForm">Annuler</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Import/Export -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Importer/Exporter</h5>
+                <div class="mb-3">
+                    <label for="importJson" class="form-label">Importer un fichier JSON</label>
+                    <input type="file" class="form-control" id="importJson" accept=".json">
+                </div>
+                <button class="btn btn-success" id="exportJson">Exporter vers JSON</button>
+            </div>
+        </div>
+
+        <!-- Recherche et Filtres -->
+        <div class="mb-4">
+            <h5>Rechercher et Filtrer les liens</h5>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label for="searchInput" class="form-label">Rechercher (Titre ou URL)</label>
+                    <input type="text" class="form-control" id="searchInput" placeholder="Entrez un mot-clé">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="filterCategory" class="form-label">Par catégorie</label>
+                    <select class="form-select" id="filterCategory">
+                        <option value="">Toutes</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="filterTag" class="form-label">Par tag</label>
+                    <select class="form-select" id="filterTag">
+                        <option value="">Tous</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Liste des liens -->
+        <div id="linkList" class="row"></div>
+    </div>
+
+    <!-- Modale pour le guide utilisateur -->
+    <div class="modal fade" id="userGuideModal" tabindex="-1" aria-labelledby="userGuideModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="userGuideModalLabel">Guide Utilisateur</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="userGuideContent">
+                    <!-- Le contenu sera chargé dynamiquement -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

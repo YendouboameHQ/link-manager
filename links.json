@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "url": "https://example.com",
+        "title": "Exemple de site",
+        "category": "Travail",
+        "tags": ["ressource", "exemple"]
+    },
+    {
+        "id": "2",
+        "url": "https://wikipedia.org",
+        "title": "Wikipédia",
+        "category": "Éducation",
+        "tags": ["savoir", "recherche"]
+    }
+]

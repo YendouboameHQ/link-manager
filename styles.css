@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+}
+.card {
+    border-radius: 10px;
+}
+.link-card {
+    transition: transform 0.2s;
+}
+.link-card:hover {
+    transform: scale(1.02);
+}
