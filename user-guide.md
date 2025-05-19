@@ -78,7 +78,6 @@ L'application est hébergée sur GitHub Pages, qui ne permet pas d'écrire direc
       }
   ]
   ```
-- **Test local** : Pour tester localement, utilisez un serveur (ex. : `python -m http.server 8000`) pour éviter les problèmes CORS.
 
 ## 5. Support
 Pour toute question ou suggestion d'amélioration, veuillez contacter l'administrateur du dépôt GitHub.
