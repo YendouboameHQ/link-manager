@@ -1,16 +1,198 @@
 [
     {
         "id": "1",
-        "url": "https://example.com",
-        "title": "Exemple de site",
-        "category": "Travail",
-        "tags": ["ressource", "exemple"]
+        "url": "https://lnkd.in/euxTfgEP",
+        "title": "Options Pattern",
+        "category": "Design Patterns",
+        "tags": ["options pattern", "modèle d'options", "configuration", "configuration", ".NET", ".NET"]
     },
     {
         "id": "2",
-        "url": "https://wikipedia.org",
-        "title": "Wikipédia",
-        "category": "Éducation",
-        "tags": ["savoir", "recherche"]
+        "url": "https://lnkd.in/efngAb5K",
+        "title": "Logging Best Practices",
+        "category": "Logging",
+        "tags": ["logging", "journalisation", "best practices", "meilleures pratiques", ".NET", ".NET"]
+    },
+    {
+        "id": "3",
+        "url": "https://lnkd.in/eG-m-Kcm",
+        "title": "CORS",
+        "category": "Web Security",
+        "tags": ["CORS", "CORS", "web security", "sécurité web", "API", "API"]
+    },
+    {
+        "id": "4",
+        "url": "https://lnkd.in/ex_V9HZf",
+        "title": "Getting Started with Middlewares",
+        "category": "Middleware",
+        "tags": ["middleware", "intergiciel", "ASP.NET", "ASP.NET", "web development", "développement web"]
+    },
+    {
+        "id": "5",
+        "url": "https://lnkd.in/ebvuP6rR",
+        "title": "How to Create Custom Middlewares",
+        "category": "Middleware",
+        "tags": ["custom middleware", "intergiciel personnalisé", "ASP.NET", "ASP.NET", "web development", "développement web"]
+    },
+    {
+        "id": "6",
+        "url": "https://lnkd.in/eW6EmAT9",
+        "title": "Configure HTTPS Redirection and HSTS",
+        "category": "Web Security",
+        "tags": ["HTTPS", "HTTPS", "HSTS", "HSTS", "security", "sécurité", ".NET", ".NET"]
+    },
+    {
+        "id": "7",
+        "url": "https://lnkd.in/eWd5_ZGb",
+        "title": "Authentication and Authorization Best Practices",
+        "category": "Security",
+        "tags": ["authentication", "authentification", "authorization", "autorisation", "best practices", "meilleures pratiques", ".NET", ".NET"]
+    },
+    {
+        "id": "8",
+        "url": "https://lnkd.in/exQuWyW2",
+        "title": "The Best Way to Map Objects",
+        "category": "Data Mapping",
+        "tags": ["object mapping", "mappage d'objets", "data transformation", "transformation de données", ".NET", ".NET"]
+    },
+    {
+        "id": "9",
+        "url": "https://lnkd.in/ehnRMma5",
+        "title": "The Best Way to Validate Objects",
+        "category": "Data Validation",
+        "tags": ["validation", "validation", "object validation", "validation d'objets", ".NET", ".NET"]
+    },
+    {
+        "id": "10",
+        "url": "https://lnkd.in/eQQ7Tn2r",
+        "title": "How to Replace Exceptions with Result Pattern",
+        "category": "Design Patterns",
+        "tags": ["result pattern", "modèle de résultat", "error handling", "gestion des erreurs", ".NET", ".NET"]
+    },
+    {
+        "id": "11",
+        "url": "https://lnkd.in/es7Zszvp",
+        "title": "How to Increase the Performance of Web APIs",
+        "category": "Performance",
+        "tags": ["web API", "API web", "performance", "performance", ".NET", ".NET"]
+    },
+    {
+        "id": "12",
+        "url": "https://lnkd.in/e2RDG6yf",
+        "title": "Top 15 Mistakes Developers Make When Creating Web APIs",
+        "category": "Best Practices",
+        "tags": ["web API", "API web", "common mistakes", "erreurs courantes", ".NET", ".NET"]
+    },
+    {
+        "id": "13",
+        "url": "https://lnkd.in/e75fQGkv",
+        "title": "How to Implement Caching",
+        "category": "Performance",
+        "tags": ["caching", "mise en cache", "performance", "performance", ".NET", ".NET"]
+    },
+    {
+        "id": "14",
+        "url": "https://lnkd.in/eQgxs3SE",
+        "title": "Getting Started with FastEndpoints",
+        "category": "Frameworks",
+        "tags": ["FastEndpoints", "FastEndpoints", "web API", "API web", ".NET", ".NET"]
+    },
+    {
+        "id": "15",
+        "url": "https://lnkd.in/eTbzyeZA",
+        "title": "How to Deploy .NET Apps to Azure with .NET Aspire",
+        "category": "Deployment",
+        "tags": ["Azure", "Azure", ".NET Aspire", ".NET Aspire", "deployment", "déploiement"]
+    },
+    {
+        "id": "16",
+        "url": "https://lnkd.in/e5Wk9yQY",
+        "title": "Top 15 Mistakes Developers Make in .NET",
+        "category": "Best Practices",
+        "tags": ["common mistakes", "erreurs courantes", ".NET", ".NET", "development", "développement"]
+    },
+    {
+        "id": "17",
+        "url": "https://lnkd.in/enCGw6ix",
+        "title": "Best Practices to Increasing Code Quality",
+        "category": "Code Quality",
+        "tags": ["code quality", "qualité de code", "best practices", "meilleures pratiques", ".NET", ".NET"]
+    },
+    {
+        "id": "18",
+        "url": "https://lnkd.in/eNPfdTvQ",
+        "title": "Building a Multi-Tenant Application",
+        "category": "Architecture",
+        "tags": ["multi-tenant", "multi-tenant", "application design", "conception d'application", ".NET", ".NET"]
+    },
+    {
+        "id": "19",
+        "url": "https://lnkd.in/eDk5X9fb",
+        "title": "Structure Your Projects with Vertical Slices",
+        "category": "Architecture",
+        "tags": ["vertical slices", "tranches verticales", "project structure", "structure de projet", ".NET", ".NET"]
+    },
+    {
+        "id": "20",
+        "url": "https://lnkd.in/eW2szFYe",
+        "title": "Structure Your Projects with Clean Architecture and Vertical Slices",
+        "category": "Architecture",
+        "tags": ["clean architecture", "architecture propre", "vertical slices", "tranches verticales", ".NET", ".NET"]
+    },
+    {
+        "id": "21",
+        "url": "https://x.com/mjovanovictech/status/1920419271441584291?t=IYfewG4ccURl18Ip5bSnMg&s=08",
+        "title": "Monitoring and Observability with Seq",
+        "category": "Logging",
+        "tags": ["monitoring", "surveillance", "observability", "observabilité", "Seq", "Seq", "logging", "journalisation", ".NET", ".NET"]
+    },
+    {
+        "id": "22",
+        "url": "https://youtu.be/2-OfCoTsNf4?si=HHiiSLJoJ8pBCh6Q",
+        "title": "Le design pattern REPOSITORY expliqué et appliqué en C#",
+        "category": "Design Patterns",
+        "tags": ["repository pattern", "modèle de dépôt", "C#", "C#", "design pattern", "modèle de conception", ".NET", ".NET"]
+    },
+    {
+        "id": "23",
+        "url": "https://ngrok.com/docs/getting-started/",
+        "title": "Getting Started with ngrok Agent",
+        "category": "Development Tools",
+        "tags": ["ngrok", "ngrok", "local development", "développement local", "tunneling", "tunnelisation", "security", "sécurité"]
+    },
+    {
+        "id": "24",
+        "url": "https://devblogs.microsoft.com/visualstudio/catch-issues-before-you-commit-to-git/",
+        "title": "Catch Issues Before You Commit to Git",
+        "category": "Code Quality",
+        "tags": ["Git", "Git", "code review", "révision de code", "GitHub Copilot", "GitHub Copilot", "Visual Studio", "Visual Studio"]
+    },
+    {
+        "id": "25",
+        "url": "https://example.com/exploring-sql-server-integration-net-aspire",
+        "title": "Exploring SQL Server Integration with .NET Aspire",
+        "category": "Database Integration",
+        "tags": ["SQL Server", "SQL Server", ".NET Aspire", ".NET Aspire", "database integration", "intégration de base de données", ".NET", ".NET"]
+    },
+    {
+        "id": "26",
+        "url": "https://erikej.github.io/sql/dacfx/2025/02/17/sql-dacfx-analyzer.html",
+        "title": "Presenting T-SQL Analyzer CLI",
+        "category": "Database Tools",
+        "tags": ["T-SQL", "T-SQL", "SQL Server", "SQL Server", "analyzer", "analyseur", "CLI", "CLI", "anti-patterns", "anti-modèles"]
+    },
+    {
+        "id": "27",
+        "url": "https://www.linkedin.com/posts/jeanmalaquias_dotnet-cleanarchitecture-cqrs-activity-7265688076637630464-fE4Y?utm_source=share&utm_medium=member_ios&rcm=ACoAAClRJoUBYJsW2qgIs75Z5Y9SgVuPbVYtm8I",
+        "title": "Tests Samples Including Unit, Integration, Functional, and Load Tests",
+        "category": "Testing",
+        "tags": ["unit tests", "tests unitaires", "integration tests", "tests d'intégration", "functional tests", "tests fonctionnels", "load tests", "tests de charge", ".NET", ".NET"]
+    },
+    {
+        "id": "28",
+        "url": "https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-8.0#use-a-tunnel-to-test-on-a-phone-or-tablet",
+        "title": "How to Use Dev Tunnels in Visual Studio 2022 with ASP.NET Core Apps",
+        "category": "Development Tools",
+        "tags": ["dev tunnels", "tunnels de développement", "Visual Studio", "Visual Studio", "ASP.NET Core", "ASP.NET Core", "testing", "test"]
     }
 ]
