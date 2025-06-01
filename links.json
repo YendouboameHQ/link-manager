@@ -194,5 +194,25 @@
         "title": "How to Use Dev Tunnels in Visual Studio 2022 with ASP.NET Core Apps",
         "category": "Development Tools",
         "tags": ["dev tunnels", "tunnels de développement", "Visual Studio", "Visual Studio", "ASP.NET Core", "ASP.NET Core", "testing", "test"]
-    }
+    },
+    {
+    "id": "29",
+    "url": "https://lnkd.in/dChKneZe",
+    "title": "Free Interactive DevOps Labs (100+ hours of practice)",
+    "category": "DevOps Training",
+    "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Docker",
+        "Git",
+        "Linux",
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "Python",
+        "Free Labs",
+        "Hands-on Training"
+    ],
+    "description": "La meilleure ressource GRATUITE avec près de 100 heures de laboratoires interactifs pour pratiquer les compétences DevOps et outils associés (Kubernetes, Docker, Terraform, etc.). Parfait pour l'apprentissage pratique."
+}
 ]
